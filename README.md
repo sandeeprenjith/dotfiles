@@ -2,8 +2,8 @@
 
 To apply the TMUX configuration,
 
-	- Clone the git
-	- Copy the file tmux.conf to your home directory as .tmux.conf
+*  Clone the git repo
+*  Copy the file tmux.conf to your home directory as .tmux.conf
 
 ```
 ╭sandeep@dockerhost ~
