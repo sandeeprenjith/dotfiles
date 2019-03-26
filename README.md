@@ -7,7 +7,7 @@ To apply the TMUX configuration,
 
 ```
 ╭sandeep@dockerhost ~
-╰$ git clone git@github.com:sandeeprenjith/dotfiles
+╰$ git clone https://github.com/sandeeprenjith/dotfiles.git
 Cloning into 'dotfiles'...
 Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
 remote: Enumerating objects: 9, done.
