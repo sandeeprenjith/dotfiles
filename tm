@@ -1,5 +1,7 @@
 #!/bin/bash
 # Bash script to start TMUX with my shell. 
+# point to this script from your (bash|zsh|fish|*sh)rc file. Put it at the end, else the rest of the lines may not be processed.
+
 
 last_session=`tmux list-sessions| sort -k 8 | tail -1 | awk -F ":" '{print $1}'`
 
