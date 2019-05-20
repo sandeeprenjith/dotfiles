@@ -1,3 +1,9 @@
+" VIM Config file
+" Copy the file along with the .vim directoty to ~/ (~/.vimrc and ~/.vim)
+" Then open vim and run :PluginInstall
+" This should work, if it doesnt, install Vundle from https://github.com/VundleVim/Vundle.vim again and repeat previous step
+
+
 set number
 set bg=dark
 syntax on
