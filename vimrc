@@ -19,6 +19,12 @@ set tabstop=4
 map gs :! gitsave % <CR>
 set paste
 highlight ColorColumn ctermbg=2 guibg=lightgrey 
+<<<<<<< HEAD:.vimrc
+=======
+
+"White background & Black letters
+highlight Normal ctermfg=black ctermbg=white 
+>>>>>>> 53c89439cf8872fd6bcffaea2a933b7e02e9a268:vimrc
 
 colorscheme black_is_the_color
 "Disable arrow keys
@@ -45,7 +51,10 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+<<<<<<< HEAD:.vimrc
 Plugin 'vim-perl/vim-perl'
+=======
+>>>>>>> 53c89439cf8872fd6bcffaea2a933b7e02e9a268:vimrc
 """"""""""""""""""""""""""""""""""""""
 
 call vundle#end()            " required
