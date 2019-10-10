@@ -1,17 +1,26 @@
-" VIM Config file
-" Copy the file along with the .vim directoty to ~/ (~/.vimrc and ~/.vim)
-" Then open vim and run :PluginInstall
-" This should work, if it doesnt, install Vundle from https://github.com/VundleVim/Vundle.vim again and repeat previous step
+"|==============================================================================================|
+"| My Personalised vimrc.                                              							|
+"| @github.com/sandeeprenjith                                          							|
+"| To use,                                                             							|
+"|		- copy the file to ~/ with the name .vimrc (~/.vimrc)         							|
+"|       - Install Vundle  											  							|
+"|			- mkdir -p ~/.vim										  							|
+"|			- git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim	|
+"|		- Open vim 																				|
+"|		- From normal mode run :PluginInstall													|
+"| At this point you are basically done; Modify as you like                                     |
+"|==============================================================================================|
 
 
 set number
-set bg=dark
+set bg=light
 syntax on
 set tabstop=4
 map gs :! gitsave % <CR>
 set paste
-highlight ColorColumn ctermbg=2 guibg=lightgrey
+highlight ColorColumn ctermbg=2 guibg=lightgrey 
 
+colorscheme black_is_the_color
 "Disable arrow keys
 "nnoremap <Left> :echo "No left for you!"<CR>
 "nnoremap <Right> :echo "No right for you!"<CR>
@@ -31,10 +40,12 @@ call vundle#begin()
 """"""""""""""""""""""""""""""""""""""
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
-Plugin 'scrooloose/syntastic'
 Plugin 'fatih/vim-go'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'vim-perl/vim-perl'
 """"""""""""""""""""""""""""""""""""""
 
 call vundle#end()            " required
@@ -104,4 +115,3 @@ if exists("+showtabline")
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-

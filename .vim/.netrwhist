@@ -1,6 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/nd33p/test'
-let g:netrw_dirhist_2='/home/nd33p/go/src/test/templates'
-let g:netrw_dirhist_3='/home/nd33p/go/src/test/assets'
-let g:netrw_dirhist_4='/home/nd33p/go/src/test/config'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='scp://srenjith@10.120.20.21/import/qaddi/srenjith/Tests/8.5.0/minibackend/'
+let g:netrw_dirhist_2='scp://srenjith@10.120.20.21/mnt/home/srenjith/'
+let g:netrw_dirhist_3='/home/nd33p/.vim'
