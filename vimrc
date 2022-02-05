@@ -16,10 +16,11 @@ set number
 set bg=light
 syntax on
 set tabstop=4
+set noai
 map gs :! gitsave % <CR>
 set paste
 highlight ColorColumn ctermbg=2 guibg=lightgrey 
-colorscheme black_is_the_color
+colorscheme industry
 "Disable arrow keys
 "nnoremap <Left> :echo "No left for you!"<CR>
 "nnoremap <Right> :echo "No right for you!"<CR>
@@ -44,10 +45,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-<<<<<<< HEAD:.vimrc
 Plugin 'vim-perl/vim-perl'
-=======
->>>>>>> 53c89439cf8872fd6bcffaea2a933b7e02e9a268:vimrc
 """"""""""""""""""""""""""""""""""""""
 
 call vundle#end()            " required
